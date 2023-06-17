@@ -3,6 +3,10 @@ body {
     font-family: 'Open Sans';
 }
 
+.primary-header {
+    text-align: center;
+}
+
 .main-heading {
     font-size: 70px;
     color: #205D76;
@@ -12,7 +16,16 @@ body {
     width: 650px;
 }
 
-.section-img {
+.category-section {
+    display: flex;
+    display: -webkit-flex; /* This is a vendor prefix! */
+}
+
+.category-details {
+    margin-left: 30px;
+}
+
+.category-img {
     width: 200px;
 }
 
@@ -23,6 +36,11 @@ body {
 
 .category-list {
     color:#FFC122;
+    padding-left: 15px;
+}
+
+.category-list-item {
+    margin-bottom: 10px;
 }
 
 .category-link {
