@@ -1,0 +1,36 @@
+body {
+    background-color: #FAF8DA;
+    font-family: 'Open Sans';
+}
+
+.main-heading {
+    font-size: 70px;
+    color: #205D76;
+}
+
+.section-img {
+    width: 200px;
+}
+
+.category-heading {
+    color: #205D76;
+    font-size: 30px;
+}
+
+.category-list {
+    color:#FFC122;
+}
+
+.category-link {
+    color:#EA6E2F;
+    font-size: 20px;
+}
+
+.primary-footer {
+    background-color: #FFC122;
+}
+
+.created-by {
+    columns: #FFFFFF;
+    font-size: 20px;
+}
