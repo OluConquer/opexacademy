@@ -1,6 +1,11 @@
 body {
+    margin: 0;
     background-color: #FAF8DA;
     font-family: 'Open Sans';
+}
+
+.primary-header {
+    text-align: center;
 }
 
 .main-heading {
@@ -12,7 +17,17 @@ body {
     width: 650px;
 }
 
-.section-img {
+.category-section {
+    display: flex;
+    margin: 50px auto;
+    width: 450px;
+}
+
+.category-details {
+    margin-left: 30px;
+}
+
+.category-img {
     width: 200px;
 }
 
@@ -23,6 +38,11 @@ body {
 
 .category-list {
     color:#FFC122;
+    padding-left: 15px;
+}
+
+.category-list-item {
+    margin-bottom: 10px;
 }
 
 .category-link {
@@ -32,9 +52,11 @@ body {
 
 .primary-footer {
     background-color: #FFC122;
+    padding: 2px;
+    text-align: center;
 }
 
 .created-by {
-    columns: #FFFFFF;
+    color: #FFFFFF;
     font-size: 20px;
 }
