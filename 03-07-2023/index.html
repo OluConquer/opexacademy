@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript HTML DOM</title>
+</head>
+<body>
+
+    <h2>JavaScript HTML DOM</h2>
+
+    <p id="intro">Finding HTML Elements by Id</p>
+    <p>This example demonstrates the <b>getElementsById</b> method.</p>
+
+    <button id="btn-verse">BIBLE VERSE</button>
+
+    <p id="demo"></p>
+
+    <script>
+
+    const bibleVerses = ["John 3:16","Matthew 7:21", "Philippians 3:10", "Psalm 46"];
+    
+    const btnVerse = document.getElementById("btn-verse") ;
+    const bibleVerse = document.getElementById("demo");
+    
+    btnVerse.onclick = function () {
+        //Random
+        // const i = random();
+        const i = Math.floor(Math.random() * bibleVerses.length)
+        bibleVerse.innerHTML = bibleVerses[i];        
+    }
+    
+
+    </script>
+</body>
+</html>
